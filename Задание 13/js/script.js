@@ -30,6 +30,6 @@ inputRub.addEventListener('input', () => {
             inputUsd.value = inputRub.value / data.usd;
         })
         .then(() => console.log(5000))
-        .catch(() => inputUsd.value = "Что-то пошло не так!");   
+        .catch(() => inputUsd.value = "Что-то пошло не так!");  
     
 });
